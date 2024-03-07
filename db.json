@@ -1,14 +1,56 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "events": [
+    {
+      "channel": "Channel 1",
+
+      "name": "Event 1",
+
+      "starttime": "2024-02-28T08:00:00Z",
+
+      "endtime": "2024-02-28T10:00:00Z",
+
+      "duration_minutes": 120,
+
+      "state": "OK"
+    },
+    {
+      "channel": "Channel 2",
+
+      "name": "Event 2",
+
+      "starttime": "2024-02-28T09:00:00Z",
+
+      "endtime": "2024-02-28T10:30:00Z",
+
+      "duration_minutes": 90,
+
+      "state": "ERROR"
+    },
+    {
+      "channel": "Channel 1",
+
+      "name": "Event 3",
+
+      "starttime": "2024-02-28T11:00:00Z",
+
+      "endtime": "2024-02-28T14:00:00Z",
+
+      "duration_minutes": 180,
+
+      "state": "NO_DATA"
+    },
+    {
+      "channel": "Channel 2",
+
+      "name": "Event 4",
+
+      "starttime": "2024-02-28T12:30:00Z",
+
+      "endtime": "2024-02-28T13:30:00Z",
+
+      "duration_minutes": 60,
+
+      "state": "WARNING"
+    }
+  ]
 }
